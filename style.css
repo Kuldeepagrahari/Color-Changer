@@ -1,0 +1,77 @@
+
+
+body{
+    margin:0;
+    padding:0;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap:20px;
+    box-shadow: 10px 10px 100px inset  rgb(224, 5, 224);
+   
+    
+}
+.header{
+    display: flex;
+    width:100%;
+    height:100px;
+    align-items: center;
+    /* flex-direction: column; */
+    justify-content: space-around;
+     box-shadow: 10px 10px 100px inset rgb(69, 3, 250);
+     padding: 40px 20px;
+     
+}
+
+h1{
+    color:rgb(191, 4, 248);
+    font-size: max(25px,5vw);
+    /* height:15px; */
+    /* position: relative; */
+    /* margin-top:-1vh; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:50px;
+    
+}
+
+h2{
+    color:skyblue;
+    /* height:10px; */
+    font-size: max(20px,4vw);
+    margin-left: 30px;
+  
+    
+    /* margin-bottom:-20px; */
+}
+i{
+    color:rgb(43, 141, 226);
+    font-size: 4vw;
+    
+}
+h1,h2{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.game-area{
+    height:350px;
+    width:85%;
+    /* background-color: rgb(255, 255, 255);
+     */
+     box-shadow: 10px 10px 109px inset rgb(4, 77, 248);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+#box{
+        width:max(100px,30vw);
+        height:30vh;
+        background-color: rgb(119, 168, 223);
+}
+
+
